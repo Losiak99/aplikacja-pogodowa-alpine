@@ -33,7 +33,6 @@ def get_weather(city):
     except Exception as e:
         return f"Błąd: {str(e)}"
 
-# Szablon HTML
 html_template = '''
     <form method="POST">
         <label>Kraj:</label>
